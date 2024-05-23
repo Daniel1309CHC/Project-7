@@ -67,6 +67,7 @@ dependencies {
             "net.serenity-bdd:serenity-screenplay-rest:${serenityCoreVersion}",
             "net.serenity-bdd:serenity-screenplay-webdriver:${serenityCoreVersion}",
             "net.serenity-bdd:serenity-ensure:${serenityEnsureVersion}",
+            "com.jayway.jsonpath:json-path:2.5.0",
 
             group: 'org.json', name: 'json', version: '20231013',
             "org.projectlombok:lombok:${lombokVersion}",
