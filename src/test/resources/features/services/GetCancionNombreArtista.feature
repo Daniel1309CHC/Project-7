@@ -1,4 +1,4 @@
-Feature: Get service artistas
+Feature: Get service Songs
   yo como usuario de la pagina web musixmatch
   quiero tener acceso a los servicios get
   para conseguir la informacion de mis canciones favoritas

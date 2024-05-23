@@ -7,10 +7,9 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        tags = "@InicioDeSesion",
-        features = {"src/test/resources/features/crear_cuenta.feature"},
+        features = {"src/test/resources/features/"},
         snippets = CucumberOptions.SnippetType.CAMELCASE,
-        glue = {"co.com.sofka.stepdefinitions"}
+        glue = {"co.com.sofka.stepdefinitions","co.com.sofka.hooks"}
 )
 public class Runner {
 }
