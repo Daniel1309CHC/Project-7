@@ -8,7 +8,7 @@ import java.util.Map;
 
 import static co.com.sofka.questions.services.JsonResponseName.jsonResponseName;
 import static co.com.sofka.stepdefinitions.service.Constants.*;
-import static co.com.sofka.utils.util.*;
+import static co.com.sofka.utils.utilService.*;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.Matchers.is;

@@ -10,7 +10,7 @@ import java.util.Map;
 
 import static co.com.sofka.questions.services.JsonResponseSongName.jsonResponseSongName;
 import static co.com.sofka.stepdefinitions.service.Constants.*;
-import static co.com.sofka.utils.util.extractInfoFromJson;
+import static co.com.sofka.utils.utilService.extractInfoFromJson;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.Matchers.is;
