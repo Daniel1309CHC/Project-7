@@ -53,7 +53,7 @@ ext {
     logbackVersion = '1.4.14'
     jacksonAnnotations = '2.15.2'
     lombokVersion = '1.18.22'
-    dataFakerVersion = '2.1.0'
+    dataFakerVersion = '2.2.2'
     seleniumDevToolsVersion = '4.12.1'
     serenityEnsureVersion = '3.9.7'
     serenityRestVersion = '3.2.5'
