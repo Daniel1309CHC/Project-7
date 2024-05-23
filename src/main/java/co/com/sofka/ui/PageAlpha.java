@@ -16,7 +16,7 @@ public class PageAlpha extends PageObject {
             .located(By.xpath("//*[@id=\"HeaderMenu-colecciones-enteros\"]"));
 
     public static final Target SELECCIONAR_PRODUCTO =  Target.the("Bikinis para Mujer")
-            .located(By.xpath("//*[@id=\"CardLink-template--16348035842207__product-grid-9134767341727\"]"));
+            .located(By.xpath("//*[@id=\"CardLink-template--16348035842207__product-grid-9134723760287\"]"));
 
 
     public static final Target CAMPO_TALLA = Target
