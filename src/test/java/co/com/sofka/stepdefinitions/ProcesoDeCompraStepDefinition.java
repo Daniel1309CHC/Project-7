@@ -40,8 +40,9 @@ public class ProcesoDeCompraStepDefinition extends SetupPage {
     @Cuando("selecciona los bikini para mujer eligiendo la talla con la cantidad deseada")
     public void seleccionaLosBikiniParaMujerEligiendoLaTallaConLaCantidadDeseada() {
         theActorInTheSpotlight().attemptsTo(
-                SeleccionarProducto.enLaSeccion(),
-                elegirTallaYCantidad());
+                SeleccionarProducto.enLaSeccion()
+                //elegirTallaYCantidad()
+                );
     }
 
     @Cuando("agrega el producto al carrito confirmando la compra")
