@@ -9,7 +9,7 @@ import org.openqa.selenium.WebDriver;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
 
 public class SetupPage {
-    @Managed(driver = "chrome")
+    @Managed(driver = "edge")
     protected WebDriver webDriver;
 
     private void setupActor(WebDriver webDriver, String actor) {
