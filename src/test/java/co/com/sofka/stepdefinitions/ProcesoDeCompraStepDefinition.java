@@ -41,7 +41,6 @@ public class ProcesoDeCompraStepDefinition extends SetupPage {
     public void seleccionaLosBikiniParaMujerEligiendoLaTallaConLaCantidadDeseada() {
         theActorInTheSpotlight().attemptsTo(
                 SeleccionarProducto.enLaSeccion()
-                //elegirTallaYCantidad()
                 );
     }
 
