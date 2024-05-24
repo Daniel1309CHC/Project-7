@@ -29,7 +29,7 @@ public class SongByNameSD extends SetupService{
                 Get.resource(resource).with(request->
                         request.queryParam(PARAM_NAME_SONG, fecha.get(0).getSongName())
                                 .queryParam(PARAM_NAME_ARTIST, fecha.get(0).getArtistName())
-                                .queryParam(PARAM_API_KEY, API_KEY_MUSIXMATCH)
+                                .queryParam(PARAM_API_KEY, MUSIXMATCH_RS)
                 )
         );
     }
