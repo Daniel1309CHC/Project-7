@@ -1,6 +1,7 @@
 package co.com.sofka.stepdefinitions;
 
 import co.com.sofka.models.FormularioUserCrear;
+import co.com.sofka.stepdefinitions.setup.SetupPage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -16,10 +17,10 @@ import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 import static org.hamcrest.CoreMatchers.containsString;
 
-public class CrearCuentaSD extends SetUp{
+public class CrearCuentaSD extends SetupPage {
     @Given("que el usuario está en la página de inicio de alpha")
     public void queElUsuarioEstáEnLaPáginaDeInicioDeAlpha() {
-        actorSetUpTheBrowser();
+        actorSetupTheBrowser("usuario");
         theActorInTheSpotlight().wasAbleTo(
                 abrirUrl("https://bikinisalpha.co/")
         );

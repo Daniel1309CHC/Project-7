@@ -16,18 +16,17 @@ public class SetupPage {
 
     private void setupActor(WebDriver webDriver, String actor) {
         OnStage.setTheStage(new OnlineCast());
+        ChromeOptions chrome_options = new ChromeOptions();
+        chrome_options.addArguments("--headless");
+        chrome_options.addArguments("--no-sandbox");
+        chrome_options.addArguments("--disable-dev-shm-usage");
+        webDriver = new ChromeDriver(chrome_options);
 
         theActorCalled(actor).can(BrowseTheWeb.with(webDriver));
     }
 
 
     private static void maximizar(WebDriver webDriver) {
-        ChromeOptions chrome_options = new ChromeOptions();
-        chrome_options.addArguments("--headless");
-        chrome_options.addArguments("--no-sandbox");
-        chrome_options.addArguments("--disable-dev-shm-usage");
-        chrome_options.addArguments("--incognito");
-        webDriver = new ChromeDriver(chrome_options);
         webDriver.manage().window().maximize();
     }
 
