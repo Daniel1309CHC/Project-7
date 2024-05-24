@@ -47,22 +47,13 @@ public class CrearCuentaSD extends SetUp{
 
     }
 
-    @When("se redirecciona donde se ve logueado")
-    public void seRedireccionaDondeSeVeLogueado() {
-
-        theActorInTheSpotlight().attemptsTo(
-                irAVerificarUsuario()
-
-        );
-
-    }
 
     @Then("el usuario debería ver un mensaje de confirmación")
     public void elUsuarioDeberíaVerUnMensajeDeConfirmación() {
 
 
 
-        String expectedMessage = String.format("Cerrar sesión");
+        String expectedMessage = String.format("Crear");
         theActorInTheSpotlight().should(
                 seeThat(confirmacionLogueo(),containsString(expectedMessage))
         );

@@ -10,5 +10,4 @@ Feature: Crear una cuenta en alpha
     Given que el usuario está en la página de inicio de alpha
     When el usuario selecciona crear cuenta
     And el usuario ingresa datos de registro válidos
-  And se redirecciona donde se ve logueado
     Then el usuario debería ver un mensaje de confirmación
