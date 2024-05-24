@@ -1,4 +1,4 @@
-package co.com.sofka.stepdefinitions.service;
+package co.com.sofka.stepdefinitions.servicerest;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.rest.abilities.CallAnApi;

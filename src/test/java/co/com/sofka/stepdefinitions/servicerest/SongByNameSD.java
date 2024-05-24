@@ -1,4 +1,4 @@
-package co.com.sofka.stepdefinitions.service;
+package co.com.sofka.stepdefinitions.servicerest;
 
 import co.com.sofka.models.JsonResponseModel.songsearch.SongArtistModel;
 import co.com.sofka.questions.services.ResponseCode;
@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Map;
 
 import static co.com.sofka.questions.services.JsonResponseSongName.jsonResponseSongName;
-import static co.com.sofka.stepdefinitions.service.Constants.*;
+import static co.com.sofka.stepdefinitions.servicerest.Constants.*;
 import static co.com.sofka.utils.utilService.extractInfoFromJson;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static org.hamcrest.CoreMatchers.equalTo;
@@ -29,7 +29,7 @@ public class SongByNameSD extends SetupService{
                 Get.resource(resource).with(request->
                         request.queryParam(PARAM_NAME_SONG, fecha.get(0).getSongName())
                                 .queryParam(PARAM_NAME_ARTIST, fecha.get(0).getArtistName())
-                                .queryParam(PARAM_API_KEY, API_KEY_MUSIXMATCH)
+                                .queryParam(PARAM_API_KEY, MM_RS)
                 )
         );
     }
