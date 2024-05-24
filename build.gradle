@@ -77,6 +77,7 @@ dependencies {
             "net.datafaker:datafaker:${dataFakerVersion}",
             "org.junit.jupiter:junit-jupiter-api:${junitVersion}",
             "org.junit.jupiter:junit-jupiter-engine:${junitVersion}"
+    implementation 'org.jdom:jdom2:2.0.6.1'
 
     testImplementation "org.slf4j:slf4j-simple:${slf4jVersion}",
             "org.junit.platform:junit-platform-suite:${junitPlatformVersion}"
