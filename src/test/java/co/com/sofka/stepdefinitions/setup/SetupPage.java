@@ -26,6 +26,7 @@ public class SetupPage {
         chrome_options.addArguments("--headless");
         chrome_options.addArguments("--no-sandbox");
         chrome_options.addArguments("--disable-dev-shm-usage");
+        chrome_options.addArguments("--incognito");
         webDriver = new ChromeDriver(chrome_options);
         webDriver.manage().window().maximize();
     }
