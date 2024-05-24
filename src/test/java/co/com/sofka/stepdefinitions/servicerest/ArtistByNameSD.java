@@ -25,7 +25,7 @@ public class ArtistByNameSD extends SetupService{
         actor.attemptsTo(
                 Get.resource(resource).with(request->
                         request.queryParam(PARAM_NAME_ARTIST, artistName)
-                                .queryParam(PARAM_API_KEY, MUSIXMATCH_RS)
+                                .queryParam(PARAM_API_KEY, MM_RS)
                 )
         );
     }
