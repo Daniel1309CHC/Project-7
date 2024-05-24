@@ -3,6 +3,8 @@ Feature: Get service artistas
   quiero tener acceso a los servicios get
   para conseguir la informacion de mis artistas favoritos
 
+  #author : francisco rojas
+
   @infoArtist @rest
   Scenario Outline: GET artist information by name
     Given the user is in the web page musixmatch
