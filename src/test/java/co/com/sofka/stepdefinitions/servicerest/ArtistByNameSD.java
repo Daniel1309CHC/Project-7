@@ -1,4 +1,4 @@
-package co.com.sofka.stepdefinitions.service;
+package co.com.sofka.stepdefinitions.servicerest;
 
 import co.com.sofka.questions.services.ResponseCode;
 import io.cucumber.java.en.*;
@@ -7,7 +7,7 @@ import net.serenitybdd.screenplay.rest.interactions.Get;
 import java.util.Map;
 
 import static co.com.sofka.questions.services.JsonResponseName.jsonResponseName;
-import static co.com.sofka.stepdefinitions.service.Constants.*;
+import static co.com.sofka.stepdefinitions.servicerest.Constants.*;
 import static co.com.sofka.utils.utilService.*;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static org.hamcrest.CoreMatchers.equalTo;

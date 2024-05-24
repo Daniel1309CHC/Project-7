@@ -1,4 +1,4 @@
-package co.com.sofka.stepdefinitions.service;
+package co.com.sofka.stepdefinitions.servicerest;
 
 import co.com.sofka.models.JsonResponseModel.songsearch.SongArtistModel;
 import co.com.sofka.questions.services.ResponseCode;
@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Map;
 
 import static co.com.sofka.questions.services.JsonResponseSongName.jsonResponseSongName;
-import static co.com.sofka.stepdefinitions.service.Constants.*;
+import static co.com.sofka.stepdefinitions.servicerest.Constants.*;
 import static co.com.sofka.utils.utilService.extractInfoFromJson;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static org.hamcrest.CoreMatchers.equalTo;

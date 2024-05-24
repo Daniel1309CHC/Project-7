@@ -6,10 +6,10 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        tags = "@rest",
-        features = {"src/test/resources/features/servicesrest"},
+        tags = "@soap",
+        features = {"src/test/resources/features/servicessoap"},
         snippets = CucumberOptions.SnippetType.CAMELCASE,
-        glue = {"co.com.sofka.stepdefinitions.servicerest","co.com.sofka.hooks"}
+        glue = {"co.com.sofka.stepdefinitions.servicesoap"}
 )
-public class RunnerRest {
+public class RunnerSoap {
 }

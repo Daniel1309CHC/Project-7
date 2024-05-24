@@ -1,4 +1,4 @@
-package co.com.sofka.stepdefinitions.service;
+package co.com.sofka.stepdefinitions.servicerest;
 
 public class Constants {
     public final static String PATH_KEY_SONG_NAME = "$.message.body.track_list[0].track";
